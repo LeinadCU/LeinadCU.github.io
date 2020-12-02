@@ -1,0 +1,296 @@
+html{
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  overflow: hidden;
+}
+
+body{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  margin: 0;
+  padding: 0;
+
+  font-family: sans-serif;
+}
+
+.wrap_container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  background-color: #fffff0;
+}
+
+.center_container{
+  position: relative;
+  width: calc(100vh - 300px);
+  height: calc(100vh - 300px);
+
+  min-width: 200px;
+  max-width: 700px;
+
+  min-height: 200px;
+  max-height: 700px;
+
+  top: calc(50% + 70px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  margin: 0
+  padding: 0;
+}
+
+.center_container .title_container{
+  position: absolute;
+  width: 100%;
+  height: 100px;
+
+  top: -140px;
+}
+
+.center_container .title_container h2{
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  color: darkblue;
+
+  margin: 0;
+  padding: 0;
+}
+
+.center_container .title_container h3{
+  font-size: 42px;
+  text-align: center;
+  font-weight: lighter;
+  color: green;
+
+  margin: 4px 0;
+  padding: 0;
+}
+
+.option_container{
+  position: absolute;
+  width: 100px;
+  height: 100%;
+
+
+  top: -140px;
+  right: 0;
+
+  margin: 0;
+  padding: 0;
+}
+
+.option_container .reload{
+  position: relative;
+  display: table;
+
+  top: 20px;
+  left: 100%;
+  transform: translateX(-100%);
+
+  font-size: 40px;
+}
+
+.option_container .reload:hover{
+  cursor: pointer;
+}
+
+.center_container .main_container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+}
+
+.main_container table{
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+  user-select: none;
+}
+
+.main_container td{
+  border: 3px solid #333;
+
+  font-size: 80px;
+  text-align: center;
+
+
+  width: 33%;
+  height: 33%;
+
+  padding: 0;
+  margin: 0;
+}
+
+table tr:first-child td {
+  border-top: 0;
+}
+table tr:last-child td {
+  border-bottom: 0;
+}
+table tr td:first-child {
+  border-left: 0;
+}
+table tr td:last-child {
+  border-right: 0;
+}
+
+table td:hover{
+  cursor: pointer;
+}
+
+.playerX{
+  color: red;
+}
+
+.playerO{
+  color: blue;
+}
+
+.playerO:hover, .playerX:hover{
+  cursor: default;
+}
+
+.hidden{
+  display: none !important;
+}
+
+@media only screen and (min-width: 300px){
+  .center_container .title_container h2{
+    font-size: 18px;
+  }
+
+  .center_container .title_container h3{
+    font-size: 10px;
+  }
+
+  .center_container{
+    top: calc(50% + 30px);
+  }
+
+  .option_container, .center_container .title_container{
+    top: -60px;
+  }
+
+  .option_container .reload{
+    font-size: 8px;
+  }
+
+  .main_container td{
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 500px){
+  .center_container .title_container h2{
+    font-size: 22px;
+  }
+
+  .center_container .title_container h3{
+    font-size: 14px;
+  }
+
+  .center_container{
+    top: calc(50% + 40px);
+  }
+
+  .option_container, .center_container .title_container{
+    top: -80px;
+  }
+
+  .option_container .reload{
+    font-size: 12px;
+  }
+
+  .main_container td{
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 800px){
+  .center_container .title_container h2{
+    font-size: 28px;
+  }
+
+  .center_container .title_container h3{
+    font-size: 20px;
+  }
+
+  .center_container{
+    top: calc(50% + 50px);
+  }
+
+  .option_container, .center_container .title_container{
+    top: -100px;
+  }
+
+  .option_container .reload{
+    font-size: 18px;
+  }
+
+  .main_container td{
+    font-size: 40px;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  .center_container .title_container h2{
+    font-size: 34px;
+  }
+
+  .center_container .title_container h3{
+    font-size: 26px;
+  }
+
+  .center_container{
+    top: calc(50% + 60px);
+  }
+
+  .option_container, .center_container .title_container{
+    top: -120px;
+  }
+
+  .option_container .reload{
+    font-size: 24px;
+  }
+
+  .main_container td{
+    font-size: 50px;
+  }
+}
+
+@media only screen and (min-width: 1400px){
+  .center_container .title_container h2{
+    font-size: 44px;
+  }
+
+  .center_container .title_container h3{
+    font-size: 36px;
+  }
+
+  .center_container{
+    top: calc(50% + 70px);
+  }
+
+  .option_container, .center_container .title_container{
+    top: -140px;
+  }
+
+  .option_container .reload{
+    font-size: 34px;
+  }
+
+  .main_container td{
+    font-size: 70px;
+  }
+}
