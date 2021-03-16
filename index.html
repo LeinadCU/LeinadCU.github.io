@@ -1,52 +1,310 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gato</title>
+    <meta charset="utf-8">
+    <title>Braulio Ceballos</title>
 
-    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="js/math.min.js"></script>
-    <script src="https://kit.fontawesome.com/6ef165d946.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src = "js/index.js">  </script>
 
-    <script type="text/javascript" src="js/gato_bot.js"></script>
-
-    <script type="text/javascript" src="js/index.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="shortcut icon" href="img/logo.ico">
+    <link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/index.css">
   </head>
   <body>
-    <div class="wrap_container">
-      <div class="center_container">
+    <div class="header">
+      <div class="icon-container">
+        <img id= "facultadCiencias" src="img/facultad_de_ciencias_white.svg" onclick="document.location = 'http://www.fciencias.unam.mx/directorio/101199'">
+        <i class="icon-github-circled" onclick="document.location = 'https://github.com/search?q=braulioceb'"></i>
+        <i class="icon-linkedin-squared" onclick="document.location = 'https://www.linkedin.com/in/braulio-ceballos-15b6a2138/'"></i>
+        <p>Braulio Ceballos</p>
+      </div>
+    </div>
+    <div class="body">
+      <div class="body-left">
+        <div class="content-wrapper">
 
-        <div class="title_container">
-          <h2>Gato</h2>
-          <h3>Juega <span class="playerO">O</span></h3>
-        </div>
+          <div class="profile-block">
+            <div class="profile-title-wrapper">
+              <div class="grid-center">
+                <h2 class="profile-title">Braulio Ceballos</h2>
+                <h2 class="profile-subtitle">Matematico</h2>
+              </div>
+            </div>
+            <img class="circled-photo" src="img/foto_perfil.jpg" alt="">
 
-        <div class="option_container">
-          <i class="reload fas fa-redo-alt"></i>
-        </div>
+            <div class="icon-text">
+              <i class="icon-mail"></i>
+              <p class="icon-description">brauliocebuc@gmail.com</p>
+              <i class="icon-linkedin-squared"></i>
+              <p class="icon-description">braulio-ceballos-15b6a2138</p>
+              <i class="icon-github-circled"></i>
+              <p class="icon-description">braulioceb</p>
+            </div>
+          </div>
 
-        <div class="main_container">
-          <table>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-          </table>
+          <div class="cv-section">
+            <h2 class="title">Educación</h2>
+            <div class="cv-subsection">
+              <h2 class="title">Maestría en Ciencias Matemáticas</h2>
+              <h2 class="subtitle">Universidad Nacional Autónoma de México</h2>
+              <div class="icon-text">
+                <i class="icon-calendar-inv"></i>
+                <p class="icon-description">2018-2020</p>
+                <i class="icon-location"></i>
+                <p class="icon-description">Ciudad de México</p>
+              </div>
+              <div class="description">
+                <p>Promedio General de 9.3</p>
+              </div>
+            </div>
+
+            <div class="cv-subsection">
+              <h2 class="title">Licenciatura en Matemáticas</h2>
+              <h2 class="subtitle">Universidad Autónoma de Yucatán</h2>
+              <div class="icon-text">
+                <i class="icon-calendar-inv"></i>
+                <p class="icon-description">2013-2017</p>
+                <i class="icon-location"></i>
+                <p class="icon-description">Ciudad de Mérida</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="cv-section">
+            <h2 class="title">Experiencia</h2>
+            <div class="cv-subsection">
+              <h2 class="title">Administrador de base de datos </h2>
+              <h2 class="subtitle">Refaccionaria el Gran Pez</h2>
+              <div class="icon-text">
+                <i class="icon-calendar-inv"></i>
+                <p class="icon-description">Agosto 2020-Septiembre 2020</p>
+                <i class="icon-location"></i>
+                <p class="icon-description">Ciudad de Mérida</p>
+              </div>
+              <div class="description">
+                <ul>
+                  <li>Migración de una base de datos local basada en Excel a una base de datos online basada en MySQL</li>
+                  <li>Limpieza de datos usando Python</li>
+                  <li>Diseño de una base de datos para analizar las ventas online de la compañia</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="cv-subsection">
+              <h2 class="title">Profesor Ayudante</h2>
+              <h2 class="subtitle">Facultad de Ciencias-Universidad Nacional Autónoma de México (UNAM)</h2>
+              <div class="icon-text">
+                <i class="icon-calendar-inv"></i>
+                <p class="icon-description">Enero 2020- Junio 2020</p>
+                <i class="icon-location"></i>
+                <p class="icon-description">Ciudad de México</p>
+              </div>
+              <div class="description">
+                <ul>
+                  <li>Profesor ayudante en los cursos de 'Análisis Matemático Aplicado' y de 'Análisis de Fourier'</li>
+                  <li>Implementación de soluciones númericas a modelos físicos usando las paqueterías matplotlib y numpy de Python</li>
+                  <li>Investigar y organizar la teoría para la creación de material didáctico</li>
+                  <li>Calificar tareas y examenes</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="cv-subsection">
+              <h2 class="title">Profesor Ayudante</h2>
+              <h2 class="subtitle">Facultad de Matemáticas - Universidad Autónoma de Yucatán (UADY)</h2>
+              <div class="icon-text">
+                <i class="icon-calendar-inv"></i>
+                <p class="icon-description">Agosto 2015- Diciembre 2015</p>
+                <i class="icon-location"></i>
+                <p class="icon-description">Ciudad de Mérida</p>
+              </div>
+              <div class="description">
+                <ul>
+                  <li> Profesor ayudante en el curso de Cálculo avanzado </li>
+                  <li> Investigar y organizar la teoría para la creación de material didáctico </li>
+                  <li> Calificar tareas y examenes </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="cv-section">
+            <h2 class="title">Cursos</h2>
+            <div class="cv-subsection">
+              <h2 class="title">Machine Learning</h2>
+              <h2 class="subtitle">Stanford University</h2>
+            </div>
+            <div class="cv-subsection">
+              <h2 class="title">Pandas</h2>
+              <h2 class="subtitle">Kaggle</h2>
+            </div>
+          </div>
+
+          <div class="cv-section">
+            <h2 class="title">Idiomas</h2>
+            <div class="cv-subsection">
+              <div class="percent-block">
+                <p>Español</p>
+                <div class="percent-bar">
+                  <div class="label">100%</div>
+                  <div class="fill" style="width: 100%;"></div>
+                </div>
+              </div>
+
+              <div class="percent-block">
+                <p>Ingles</p>
+                <div class="percent-bar">
+                  <div class="label">65%</div>
+                  <div class="fill" style="width: 65%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="cv-section">
+            <h2 class="title">Habilidades</h2>
+            <div class="skill-block">
+              <p>Python</p>
+              <div class="filled"></div>
+              <div class="filled"></div>
+              <div class="filled"></div>
+              <div class="filled"></div>
+              <div class="unfilled"></div>
+            </div>
+
+            <div class="skill-block">
+              <p>Javascript</p>
+              <div class="filled"></div>
+              <div class="filled"></div>
+              <div class="filled"></div>
+              <div class="unfilled"></div>
+              <div class="unfilled"></div>
+            </div>
+
+            <div class="skill-block">
+              <p>Matlab</p>
+              <div class="filled"></div>
+              <div class="filled"></div>
+              <div class="filled"></div>
+              <div class="unfilled"></div>
+              <div class="unfilled"></div>
+            </div>
+
+            <div class="skill-block">
+              <p>Octave</p>
+              <div class="filled"></div>
+              <div class="filled"></div>
+              <div class="filled"></div>
+              <div class="unfilled"></div>
+              <div class="unfilled"></div>
+            </div>
+
+            <div class="skill-block">
+              <p>HTML</p>
+              <div class="filled"></div>
+              <div class="filled"></div>
+              <div class="filled"></div>
+              <div class="unfilled"></div>
+              <div class="unfilled"></div>
+            </div>
+
+            <div class="skill-block">
+              <p>Excel</p>
+              <div class="filled"></div>
+              <div class="filled"></div>
+              <div class="filled"></div>
+              <div class="unfilled"></div>
+              <div class="unfilled"></div>
+            </div>
+
+            <div class="skill-block">
+              <p>MySQL</p>
+              <div class="filled"></div>
+              <div class="filled"></div>
+              <div class="filled"></div>
+              <div class="unfilled"></div>
+              <div class="unfilled"></div>
+            </div>
+
+            <div class="skill-block">
+              <p>R</p>
+              <div class="filled"></div>
+              <div class="filled"></div>
+              <div class="unfilled"></div>
+              <div class="unfilled"></div>
+              <div class="unfilled"></div>
+            </div>
+
+            <div class="skill-block">
+              <p>Github</p>
+              <div class="filled"></div>
+              <div class="filled"></div>
+              <div class="unfilled"></div>
+              <div class="unfilled"></div>
+              <div class="unfilled"></div>
+            </div>
+          </div>
+
         </div>
+      </div>
+      <div class="body-right">
+        <div class="content-wrapper">
+
+          <div class="logo-title">
+            <img src="img/logo.svg" alt="">
+            <h2 class="main-title">Proyectos</h2>
+          </div>
+
+          <div class="proyect-block" onclick="document.location = 'articulos/machine_learning.html'">
+            <div class="proyect-title">
+              <img src="img/proyecto_regresion.png" alt="">
+              <div class="proyect-title-wrapper">
+                <h2>Regresión Lineal</h2>
+                <p class="tag">Javascript</p>
+                <p class="tag">Machine Learning</p>
+                <p class="tag">Latex</p>
+                <p class="tag">HTML</p>
+              </div>
+
+            </div>
+
+            <div class="proyect-description">
+              <p>
+                Implementación y visualización de diferentes algoritmos de Machine Learning
+                programados desde cero en regresión lineal de manera interactiva a través de una gráfica.
+              </p>
+
+              <a href="https://github.com/braulioceb/braulioceb.github.io"><i class="icon-github-circled"></i></a>
+            </div>
+          </div>
+          <div class="proyect-block" onclick="document.location = 'documentos/NavierStokes.pdf'">
+            <div class="proyect-title">
+              <img src="img/5000-Re20000v-0.3.jpg" alt="">
+              <div class="proyect-title-wrapper">
+                <h2>Navier-Stokes </h2>
+                <p class="tag"> Análisis Numérico </p>
+                <p class="tag"> Matlab</p>
+                <p class="tag"> Modelación Matemática </p>
+              </div>
+            </div>
+
+            <div class="proyect-description">
+              <p> Simulación númerica del problema de la cavidad cuadrada y las ecuaciones de Navier-Stokes usando diferencias finitas.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+
+      <div class="copyright-container">
+        <p> <i class="icon-copyright"></i> 2020. Derechos reservados a Braulio Ceballos.</p>
       </div>
 
     </div>
+
   </body>
 </html>
