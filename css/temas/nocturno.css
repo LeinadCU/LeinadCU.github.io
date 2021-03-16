@@ -1,0 +1,151 @@
+body {
+  background: #fbfbfb;
+}
+
+.header {
+  background: #333;
+}
+
+.content-wrapper {
+  background: white;
+  border-color: lightgray;
+  border-left-color: #333;
+}
+
+.title {
+  color: black;
+}
+
+.main-title {
+  color: #000080;
+}
+
+.logo-title h2 {
+  color: #000080;
+}
+
+.circled-photo {
+  border-color: black;
+  background: black;
+}
+
+.icon-container i {
+  color: white;
+}
+
+.icon-container i:hover {
+  color: black;
+}
+
+.icon-container p {
+  color: white;
+}
+
+.icon-text i {
+  color: #6a6a6a;
+}
+
+.icon-text p {
+  color: #6a6a6a;
+}
+
+.project-block {
+  background-image: linear-gradient(to top, #e6e9f0 0%, #fff 100%);
+  border-color: #333;
+}
+
+.project-block:hover {
+  border-color: #55f255;
+}
+
+.project-block .project-title h2 {
+  color: #333;
+}
+
+.project-block .project-title p, .tag {
+  color: #3598db;
+  border-color: #3598db;
+}
+
+.project-block .project-description p {
+  color: #333;
+}
+
+.project-block .project-description a {
+  color: #555;
+}
+
+.project-block .project-description a:hover {
+  color: #55f255;
+}
+
+.profile-block .profile-title {
+  color: black;
+}
+
+.profile-block .profile-subtitle {
+  color: #0000bb;
+}
+
+.profile-block .icon-text i {
+  color: #000080;
+}
+
+.profile-block .icon-text p {
+  color: #444;
+}
+
+.cv-section .title {
+  color: #000080;
+  border-bottom-color: #000080;
+}
+
+.cv-subsection .title {
+  color: #444;
+}
+
+.cv-subsection .subtitle {
+  color: #000090;
+}
+
+.cv-subsection .subtitle a {
+  color: darkblue;
+}
+
+.percent-block p {
+  color: #444;
+}
+
+.percent-bar {
+  background: lightgray;
+}
+
+.percent-bar .fill {
+  background: #333;
+}
+
+.percent-bar .label {
+  color: white;
+}
+
+.skill-block p {
+  color: #444;
+}
+
+.skill-block .filled{
+  background: #333;
+  border-color: black;
+}
+
+.skill-block .unfilled{
+  background: lightgray;
+  border-color: black;
+}
+
+.footer {
+  background: #333;
+}
+
+.footer .copyright-container p {
+  color: white;
+}
